@@ -12,50 +12,57 @@
 
 <body>
     <div class="container">
-    <h1>JavaScript Exercises and Calculator</h1>
+        <h1>JavaScript Exercises and Calculator</h1>
 
-    <div class="level2">
-        <h4>Level 2</h4>
-        <button class="btn" onClick="calculator();">Calculator</button>
-    </div>
-    <div class="level3">
-        <h4>Level 3</h4>
-        <div class="calculator">
-            <div class="result">1 + 2 = 3</div>
-            <div class="keypad">
-                <div class="numbers">
-                    <div class="row">
-                        <div id="one">1</div>
-                        <div id="four">4</div>
-                        <div id="seven">7</div>  
-                    </div>
-                    <div class="row">
-                        <div id="two">2</div>  
-                    <div id="five">5</div>
-                    <div id="eight">8</div> 
-                    </div>
-                    <div class="row">
-                        <div id="three">3</div>
-                        <div id="six">6</div>
-                    <div id="nine">9</div>
-                    </div>
-                    <div class="row">
-                        <div id="equal">=</div>
-                        <div id="coma">,</div>
-                    <div id="zero">0</div>
-                    </div>                        
-                </div>
-                <div class="operators">
-                    <div id="plus">+</div>
-                    <div id="minus">-</div>
-                    <div id="multiplied">x</div>
-                    <div id="divided">/</div>
-                    <div id="dividedWithRest">%</div>
-                    <div id="cancel">C</div>
-                </div>
+        <div class="level1">
+            <h4>Level 1</h4>
+            <p>script src="level1.js"</p>
         </div>
-    </div>
-</div>
+        <div class="level2">
+            <h4>Level 2</h4>
+            <button class="btn" onClick="calculator();">Calculator</button>
+        </div>
+        <div class="level3">
+            <h4>Level 3</h4>
+            <div class="calculator">
+                <div class="result">
+                    <div data-previous-operand class="previous-operand"></div>
+                    <div data-current-operand class="current-operand"></div>
+                </div>
+                <div class="keypad">
+                    <div class="numbers">
+                        <div class="row">
+                            <button data-number>1</button>
+                            <button data-number>4</button>
+                            <button data-number>7</button>
+                        </div>
+                        <div class="row">
+                            <button data-number>2</button>
+                            <button data-number>5</button>
+                            <button data-number>8</button>
+                        </div>
+                        <div class="row">
+                            <button data-number>3</button>
+                            <button data-number>6</button>
+                            <button data-number>9</button>
+                        </div>
+                        <div class="row">
+                            <button data-equals id='equals'>=</button>
+                            <button data-number>.</button>
+                            <button data-number>0</button>
+                        </div>
+                    </div>
+                    <div class="operators">
+                        <button data-operation>+</button>
+                        <button data-operation>-</button>
+                        <button data-operation>x</button>
+                        <button data-operation>÷</button>
+                        <button data-operation>%</button>
+                        <button data-delete class="delete">DEL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -63,7 +70,7 @@
     <!-- Level 1 -->
     <!-- <script type="text/javascript" src="js/level1.js"></script> -->
     <!-- Level 2 -->
-    <script type="text/javascript" src="js/level2.js"></script>
+    <!-- <script type="text/javascript" src="js/level2.js"></script> -->
     <!-- Level 3 -->
     <script type="text/javascript" src="js/level3.js"></script>
 </body>

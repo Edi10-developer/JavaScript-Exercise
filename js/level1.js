@@ -57,7 +57,7 @@ let container = ['table', 'chair', 'laptop', 'book'];
 let i;
 
 for(i = 0; i <= container.length; i++){
-    console.log(i +'. - ' + container[i]);
+    console.log('El objeto ' + container[i] + ' esta en la poscion numero ' + i + '.');
 }
 
 /* 8.-
