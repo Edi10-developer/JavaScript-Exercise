@@ -24,8 +24,5 @@ Take advantage of the "calculator" function from the previous exercise to create
 We will now evolve level 2: We will create a graphical interface in order to make the calculator more usable. The design is completely free, try to surprise your mentor.
 
 
-## View:
-![Alt text](./assets/media/picture1.png?raw=true "Layout")
-
 
 Developed by [Edi Selimi](https://ediselimi.com/).
