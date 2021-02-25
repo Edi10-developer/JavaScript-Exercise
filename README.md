@@ -1,8 +1,10 @@
-# JavaScript Exercises for IT Academy
+# JavaScript Exercises for IT Academy, Calculator
 
 #### The technologies used are HTML, CSS, JavaScript
 
-[Live Site](https://tennis-ball.netlify.app/)
+## Demo view:
+![Alt text](./img/view.png?raw=true "Layout")
+
 
 ### Level 1
 1.- The exercise consists of creating a file called index.html and displaying a 'Hello world' for the console (to activate the console ->; F12). Track: Console.log ();
