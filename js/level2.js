@@ -18,10 +18,10 @@ function calculator() {
       result = first_number * second_number;
       break;
     case "/":
-      result = first_number * second_number;
+      result = first_number / second_number;
       break;
     case "%":
-      result = first_number * second_number;
+      result = first_number % second_number;
       break;
     default:
       alert("Los datos itroducidos son incorrectos.");
@@ -29,4 +29,3 @@ function calculator() {
   alert("El resultado de " + first_number + ' ' + operator + ' ' + second_number + ' es ' + result);
 }
 
-calculator();

@@ -1,0 +1,103 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.level2, .level3{
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: aquamarine;
+}
+
+.level3{
+    width: 80%;
+}
+
+
+/* Calculator of level 3
+******************************/
+.calculator{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    width: 80%;
+    margin: 1rem auto; 
+}
+
+.keypad{
+    flex-grow: 4;
+    display: flex;
+}
+
+.result{
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.842);
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers{
+    flex-grow: 4;
+    display: flex;
+}
+
+.row{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.numbers>.row>div{
+    border: 1px solid white;
+    padding: 1rem;
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    font-size: 22px;
+    font-weight: 600;
+    transition: all 300ms;
+}
+
+#equal{
+    background-color: rgb(18, 216, 94);
+}
+
+.numbers>.row>div:hover, #equal:hover{
+    background-color: rgba(255, 177, 31, 0.918);
+}
+
+
+.operators{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.operators>div{
+    border: 1px solid white;
+    padding: 1rem;
+    background-color: rgb(253, 109, 42);
+    font-size: 22px;
+    font-weight: 600;
+    transition: all 300ms;
+}
+
+.operators>div:hover{
+    background-color: rgb(255, 180, 118);
+}
+
